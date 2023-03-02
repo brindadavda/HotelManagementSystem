@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/drawable/img_login_btn.xml" value="0.182" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/drawable/login_edit_button.xml" value="0.18" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/drawable/nav_back_img.xml" value="0.182" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/drawable/person.xml" value="0.183" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/._news_avd_v02.xml" value="0.1703125" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/activity_forget_password.xml" value="0.340625" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/content_nav_drawer.xml" value="0.1703125" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/fragment_gallery.xml" value="0.1703125" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/fragment_home.xml" value="0.1703125" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/fragment_slideshow.xml" value="0.1703125" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/layout/nav_header_nav_drawer.xml" value="0.1703125" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/menu/activity_main_drawer.xml" value="0.1703125" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/menu/nav_drawer.xml" value="0.5" />
+        <entry key="..\:/Brinda/6sem/HotelManagementSystem/app/src/main/res/menu/nav_menu.xml" value="0.5" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.183" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/drawable/menu_main_activity.xml" value="0.183" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/drawable/nav_back_img.xml" value="0.183" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/drawable/person.xml" value="0.183" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/drawable/user_back.xml" value="0.181" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.13980333475844378" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/activity_room_details.xml" value="0.13980333475844378" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/activity_room_list.xml" value="0.25" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/app_bar_layout.xml" value="0.33" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/content_main.xml" value="0.13980333475844378" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/fragment_bill_counter.xml" value="0.1248396750748183" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/fragment_chief.xml" value="0.1248396750748183" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/fragment_home.xml" value="0.13980333475844378" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/fragment_manager.xml" value="0.1248396750748183" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/fragment_user.xml" value="0.2" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/fragment_waiter.xml" value="0.13980333475844378" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/nav_half_lay.xml" value="0.22" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/nav_header.xml" value="0.33" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/layout/room_design.xml" value="0.18" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/menu/nav_half_menu.xml" value="0.33" />
+        <entry key="..\:/Brinda/Vinaska Technology Intership/HotelManagementSystem/app/src/main/res/menu/nav_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

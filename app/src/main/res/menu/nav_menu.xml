@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/nav_user"
+            android:title="User"
+            android:icon="@drawable/person"/>
+
+        <item
+            android:id="@+id/nav_bill"
+            android:title="Bill Counter"
+            android:icon="@drawable/cash_counter"/>
+
+        <item
+            android:id="@+id/nav_manager"
+            android:title="Manager"
+            android:icon="@drawable/manager"/>
+
+        <item
+            android:id="@+id/nav_waiter"
+            android:title="Waiter"
+            android:icon="@drawable/waiter"/>
+
+        <item
+            android:id="@+id/nav_chief"
+            android:title="Chief"
+            android:icon="@drawable/chief"/>
+
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/Logout"
+                android:title="logout"
+                android:icon="@drawable/logout"/>
+
+            <item
+                android:id="@+id/Setting"
+                android:title="Settings"
+                android:icon="@drawable/settings"/>
+        </menu>
+
+    </item>
+
+</menu>
