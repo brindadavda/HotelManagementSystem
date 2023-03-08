@@ -17,4 +17,28 @@
     <string name="OpenDrawer">Open navigation drawer</string>
     <string name="CloseDrawer">close navigation drawer</string>
     <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string-array name="pass_type_options">
+        <item>Debit Card</item>
+        <item>UPI</item>
+        <item>PayPal</item>
+        <item>Phone Pay</item>
+        <item>By Cash</item>
+    </string-array>
+
+    <!--    add your food items list here-->
+    <string-array name="food_select_option">
+        <item>Food Select Option</item>
+        <item>UPI</item>
+        <item>PayPal</item>
+        <item>Phone Pay</item>
+        <item>By Cash</item>
+    </string-array>
+
+    <string-array name="Select_place">
+        <item>Room</item>
+        <item>Table</item>
+    </string-array>
+
+    <string name="pass_type_prompt">Select a pass type</string>
 </resources>

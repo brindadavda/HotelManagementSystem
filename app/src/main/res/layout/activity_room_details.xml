@@ -12,7 +12,134 @@
         android:layout_height="wrap_content"
         app:title="Room Booking"
         android:background="@color/theme_color"
-        app:navigationIcon="@drawable/next"
+        app:navigationIcon="@drawable/back"
         app:titleTextColor="@color/white" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/room"/>
+
+    <TextView
+        android:id="@+id/tvRoomName"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Room Name"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="From ট 5000/night"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room No :"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvRoomNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="234/2E"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Floor No. :"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvFloorNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-BR"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facility:"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvFacility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business Centre\nClub Lounge\nHealth Club\nSwimming Pool\nFitness Zone\nSpa"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offer:"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvOffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asia-Pacific Offer — Earn up to 15,000 Bonus Points
+World of Hyatt members can earn 1,000 Bonus Points for every two qualifying nights at participating Hyatt hotels and resorts in Asia-Pacific. Register by July 31, 2022 to earn up to 15,000 Bonus Points for qualifying stays completed by September 2, 2022. Terms apply. Click here to learn more."
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBookRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Now"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/next"/>
 
 </LinearLayout>

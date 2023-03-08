@@ -3,15 +3,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Activity.RoomListActivity">
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/logo" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@+id/ivlogo"
+        android:background="@color/theme_color" />
+
+    <io.woong.shapedimageview.CircleImageView
+        android:id="@+id/ivnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/searchView"
+        android:src="@drawable/next"
+        app:border_color="@color/theme_color"
+        app:border_size="2dp" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/ivlogo"
         tools:listitem="@layout/room_design" />
-
-<!--    <include layout="@layout/room_design" />-->
 
 
 </RelativeLayout>

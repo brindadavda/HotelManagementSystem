@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D81B60"
-    tools:context=".fragment.Chief">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Chief"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Food Ordering"
+        android:background="@color/theme_color"
+        app:navigationIcon="@drawable/back"
+        app:titleTextColor="@color/white" />
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="Please Provide  the  food list item:"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/etItems"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:hint="Please enter remain Item product"
+        android:textColorHint="@color/black"/>
+
+
+        <Button
+            android:id="@+id/btnSendToManager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send To Manager"
+            android:textColor="@color/white"
+            android:background="@color/theme_color"
+            android:layout_marginTop="200dp"
+            android:layout_gravity="center"/>
+
+
+</LinearLayout>

@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.example.hotelmanagementsystem.Activity.FoodOrderActivity;
 import com.example.hotelmanagementsystem.R;
 import com.example.hotelmanagementsystem.Activity.RoomListActivity;
 
@@ -30,11 +31,19 @@ public class User extends Fragment {
         View view = inflater.inflate(R.layout.fragment_user, container, false);
 
         ImageView ivRoomBooking = view.findViewById(R.id.ivRoomBooking);
+        ImageView ivFoodOrder = view.findViewById(R.id.ivFoodOrder);
 
         ivRoomBooking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getContext(),RoomListActivity.class));
+            }
+        });
+
+        ivFoodOrder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getContext(), FoodOrderActivity.class));
             }
         });
 
