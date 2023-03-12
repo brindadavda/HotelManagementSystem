@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="2dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="12dp"
+    app:contentPadding="10dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--        id of the order-->
+        <TextView
+            android:id="@+id/orderIdTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order id : 121212"
+            android:textColor="@color/black" />
+
+        <!--        Date when order was placed-->
+        <TextView
+            android:id="@+id/orderDateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/nextIv"
+            android:layout_toLeftOf="@+id/nextIv"
+            android:text="dd/MM/yyyy"
+            android:textColor="@color/black" />
+
+        <!--        Email of the user who placed order-->
+        <TextView
+            android:id="@+id/userIdTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderIdTv"
+            android:text="User Id"
+            android:textColor="@color/black" />
+
+        <!--        total amount of the order-->
+        <TextView
+            android:id="@+id/amountTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userIdTv"
+            android:text="Total Amount: $32.33"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/nextIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/next" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

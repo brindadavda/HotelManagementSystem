@@ -21,6 +21,7 @@ public class RoomDetailsActivity extends AppCompatActivity {
 
     TextView tvRoomName;
     Button btnBookRoom;
+    ImageView ivBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,11 +37,19 @@ public class RoomDetailsActivity extends AppCompatActivity {
             }
         });
 
+        ivBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
     }
 
     public void init(){
         tvRoomName = findViewById(R.id.tvRoomName);
         btnBookRoom = findViewById(R.id.btnBookRoom);
+        ivBack = findViewById(R.id.ivBack);
     }
 
     private void detailsBottomSheet() {

@@ -7,13 +7,13 @@
     tools:context=".fragment.Chief"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:title="Food Ordering"
-        android:background="@color/theme_color"
-        app:navigationIcon="@drawable/back"
-        app:titleTextColor="@color/white" />
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:title="Food Ordering"-->
+<!--        android:background="@color/theme_color"-->
+<!--        app:navigationIcon="@drawable/back"-->
+<!--        app:titleTextColor="@color/white" />-->
 
     <TextView
         android:layout_width="match_parent"

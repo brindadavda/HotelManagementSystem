@@ -7,13 +7,27 @@
     tools:context=".Activity.FoodOrderActivity"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.Toolbar
+    <Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:title="Room Booking"
-        android:background="@color/theme_color"
-        app:navigationIcon="@drawable/back"
-        app:titleTextColor="@color/white" />
+        android:background="@color/theme_color">
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Ordering"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+    </Toolbar>
 
    <LinearLayout
        android:layout_width="wrap_content"
@@ -81,6 +95,7 @@
 
 
     <Button
+        android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="submit"

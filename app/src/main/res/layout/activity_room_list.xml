@@ -13,21 +13,26 @@
         android:layout_marginLeft="10dp"
         android:src="@drawable/logo" />
 
-    <androidx.appcompat.widget.SearchView
+    <EditText
         android:id="@+id/searchView"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="50dp"
         android:layout_toEndOf="@+id/ivlogo"
-        android:background="@color/theme_color" />
+        android:background="@color/theme_color"
+        android:drawableEnd="@drawable/search"
+        android:drawableTint="@color/white"
+        android:hint="Search View"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <io.woong.shapedimageview.CircleImageView
         android:id="@+id/ivnext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
         android:layout_toEndOf="@+id/searchView"
-        android:src="@drawable/next"
-        app:border_color="@color/theme_color"
-        app:border_size="2dp" />
+        android:src="@drawable/ic_baseline_circle_notifications_24"
+        android:tint="@color/theme_color" />
 
 
     <androidx.recyclerview.widget.RecyclerView

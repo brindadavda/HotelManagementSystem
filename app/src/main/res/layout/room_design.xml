@@ -19,11 +19,21 @@
             android:id="@+id/ivRoomImg"
             android:layout_width="160dp"
             android:layout_height="106dp"
+            android:layout_marginLeft="10dp"
             android:src="@drawable/room"
             app:border_color="@color/white"
             app:border_size="3dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
             app:radius="10dp" />
+
+        <ImageView
+            android:id="@+id/ivFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="15dp"
+            android:src="@drawable/fav"
+            app:tint="#D50000" />
 
         <TextView
             android:id="@+id/tvroomName"
@@ -58,9 +68,9 @@
             android:layout_height="20dp"
             android:layout_below="@+id/tvRoomRate"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
             android:background="@color/theme_color"
             android:gravity="center"
-            android:layout_marginTop="2dp"
             android:text="Booking Online"
             android:textColor="@color/white"
             android:textSize="12dp" />
@@ -70,9 +80,11 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_below="@+id/tvRoomRate"
+            android:layout_marginStart="10dp"
             android:layout_toEndOf="@+id/tvRoomBooking"
             android:src="@drawable/next"
             app:border_color="@color/theme_color"
+            android:layout_marginTop="2dp"
             app:border_size="2dp" />
 
     </RelativeLayout>
